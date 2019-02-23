@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  background-color: #2a2c32;
+  padding-top: 25px;
+  padding-bottom: 12px;
+  width: 100%; }
+  .header .menu {
+    position: relative;
+    float: right;
+    display: inline-block;
+    font-size: 19px;
+    margin-right: 64px; }
+  .header .header_logo:after {
+    content: "";
+    clear: both;
+    display: block; }
+  .header li {
+    margin-left: 40px;
+    padding-bottom: 45px;
+    border-bottom: 2px solid transparent; }
+    .header li a {
+      text-transform: uppercase;
+      color: white;
+      text-decoration: none;
+      display: inline-block;
+      font: 400 14px Arial Helvetica sans-serif; }
+    .header li:hover {
+      border-bottom: 2px solid #aea166; }
+  .header .fapor {
+    float: left;
+    margin-left: 278px;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 26px; }
+
+.background {
+  position: relative;
+  background-image: url("../imeg/Layer.png");
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 200px; }
+
+.background:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(42, 44, 50, 0.9); }
+
+.container h1 {
+  position: relative;
+  margin-left: 278px;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 25px;
+  margin-top: 90px;
+  text-transform: uppercase; }
+
+.container p {
+  position: relative;
+  margin-left: 278px;
+  color: white;
+  font-size: 14px;
+  line-height: 20px; }
+
+.people {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px; }
+  .people .photo, .people .photo-1 {
+    margin-right: 104px; }
+  .people .name, .people .name-1, .people .name-2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 30px; }
+  .people .position, .people .position-1, .people .position-2 {
+    color: #b5a263;
+    font-size: 14px;
+    margin-top: 10px; }
+
+.headline h2 {
+  background-color: white;
+  padding-top: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 37px; }
+  .headline h2:after {
+    display: block;
+    content: "";
+    margin: auto;
+    margin-top: 15px;
+    background-color: #b5a263;
+    height: 3px;
+    width: 50px; }
+
+.show_all {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  margin-bottom: 30px; }
+  .show_all .show {
+    padding: 20px 55px;
+    border-radius: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+    box-shadow: none;
+    background-color: white;
+    border-color: gray; }
+
+.reviews {
+  background-color: #f7f7f7; }
+
+.what_say {
+  text-transform: uppercase;
+  padding-top: 120px;
+  text-align: center; }
+  .what_say:after {
+    display: block;
+    content: "";
+    margin: auto;
+    margin-top: 30px;
+    background-color: #24282f;
+    height: 3px;
+    width: 80px; }
+
+.owl-carousel {
+  text-align: center;
+  margin: auto; }
+  .owl-carousel .photo_rew {
+    width: 100px;
+    margin: auto;
+    padding-top: 64px; }
+  .owl-carousel .reviews_text {
+    padding-top: 40px; }
+  .owl-carousel .reviews_name {
+    text-transform: uppercase;
+    text-align: center;
+    color: #aea166;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 50px; }
+  .owl-carousel .reviews_position {
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 120px; }
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  background-color: #303338; }
+  .contacts .about_fapor, .contacts .info {
+    margin-right: 170px; }
+  .contacts .about_fapor h3, .contacts .info h3, .contacts .form h3 {
+    color: #b5a263;
+    font-size: 14px;
+    padding-bottom: 30px;
+    padding-top: 80px;
+    text-transform: uppercase; }
+  .contacts .about_fapor p, .contacts .info .contact {
+    color: #6e7279;
+    font-size: 14px;
+    margin-bottom: 70px; }
+  .contacts .info .adress {
+    color: #6e7279;
+    font-size: 14px;
+    margin-bottom: 30px; }
+
+.application {
+  padding: 15px 120px 15px 15px;
+  text-align: left;
+  margin-bottom: 12px;
+  color: #6e7279;
+  font-size: 14px;
+  background-color: #2b2f35;
+  border: none;
+  outline: 2px solid #6e7279; }
+
+.send {
+  padding: 15px 90px 15px 90px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  background-color: #b5a263;
+  border: none; }
+
+.foot {
+  display: flex;
+  background-color: #24282f; }
+  .foot .foot_text {
+    flex-basis: 60%;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    color: #6e7279;
+    font-size: 12px;
+    margin-left: 240px; }
+  .foot .facebook, .foot .twitter, .foot .dribbble, .foot .google {
+    min-width: 35px;
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 35px;
+    color: #6e7279;
+    font-size: 16px;
+    border: 2px solid #6e7279;
+    border-radius: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  .foot .facebook:hover, .foot .twitter:hover, .foot .google:hover, .foot .dribbble:hover {
+    background-color: #b5a263;
+    color: white; }
+
+.facebook .icon i, .google .icon_2 i, .twitter .icon_1 i, .dribbble .icon_3 i {
+  padding-left: 10px; }
+
+.photo_caption, .photo_caption_1, .photo_caption_2 {
+  display: flex; }
+  .photo_caption .icon_social, .photo_caption .icon_social_1, .photo_caption_1 .icon_social, .photo_caption_1 .icon_social_1, .photo_caption_2 .icon_social, .photo_caption_2 .icon_social_1 {
+    margin-top: 30px;
+    margin-left: 30px; }
+  .photo_caption .icon_social_2, .photo_caption_1 .icon_social_2, .photo_caption_2 .icon_social_2 {
+    margin-top: 30px;
+    margin-left: 15px; }
+
+.icons_2, .icons, .icons_1 {
+  min-width: 35px;
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 34px;
+  color: white;
+  background-color: #dedede;
+  font-size: 16px;
+  border: 2px solid #dedede;
+  border-radius: 50px;
+  margin-bottom: 15px; }
+
+.facebook .icons i, .google .icons_2 i, .twitter .icons_1 i {
+  padding-left: 10px; }
+
+.owl-nav .owl-prev:after {
+  display: block;
+  content: "<";
+  font-size: 25px;
+  color: black;
+  position: absolute;
+  margin-left: -500px;
+  top: 40%; }
+
+.owl-nav .owl-prev:before {
+  display: block;
+  content: ">";
+  font-size: 25px;
+  color: black;
+  position: absolute;
+  top: 40%;
+  margin-left: 500px; }
+
+/*# sourceMappingURL=style.css.map */
