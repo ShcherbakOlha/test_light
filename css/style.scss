@@ -13,6 +13,7 @@ $inline-block:inline-block;
   width: 100%;
 
   .menu {
+    font-family: 'Open Sans', sans-serif;
     position: relative;
     float: right;
     display: $inline-block;
@@ -38,7 +39,6 @@ $inline-block:inline-block;
       display: inline-block;
       font: 400 14px Arial Helvetica sans-serif;
     }
-
     &:hover {
       border-bottom: 2px solid #aea166;
     }
@@ -70,6 +70,7 @@ $inline-block:inline-block;
     background-color: rgba(42,44,50,0.9);
   }
   .container h1{
+    font-family: 'Raleway', sans-serif;
     position: relative;
     margin-left: 278px;
     color: white;
@@ -79,6 +80,7 @@ $inline-block:inline-block;
     text-transform: uppercase;
   }
   .container p{
+    font-family: 'Open Sans', sans-serif;
     position: relative;
     margin-left: 278px;
     color: white;
@@ -93,17 +95,20 @@ $inline-block:inline-block;
    margin-right: 104px;
   }
    .name,.name-1,.name-2{
+     font-family: 'Raleway', sans-serif;
       font-size: 16px;
       text-transform: uppercase;
       margin-top:30px;
    }
     .position,.position-1,.position-2{
+      font-family: 'Open Sans', sans-serif;
       color:#b5a263;
       font-size:14px;
       margin-top:10px;
     }
   }
 .headline h2{
+  font-family: 'Raleway', sans-serif;
   background-color: white;
   padding-top: 150px;
   text-align: center;
@@ -120,6 +125,7 @@ $inline-block:inline-block;
   }
 }
 .show_all{
+  font-family: 'Open Sans', sans-serif;
   display: flex;
   justify-content: center;
   margin-top: 45px;
@@ -137,8 +143,9 @@ $inline-block:inline-block;
 .reviews{
   background-color:#f7f7f7;}
 .what_say{
+      font-family: 'Raleway', sans-serif;
       text-transform: uppercase;
-     padding-top: 120px;
+      padding-top: 120px;
       text-align: center;
       &:after{
       display: block;
@@ -160,9 +167,11 @@ $inline-block:inline-block;
     padding-top: 64px;
   }
   .reviews_text {
+    font-family: 'Open Sans', sans-serif;
     padding-top:40px;
   }
   .reviews_name {
+    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     text-align: center;
     color: #aea166;
@@ -171,12 +180,14 @@ $inline-block:inline-block;
     margin-top: 50px;
   }
   .reviews_position {
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 14px;
     padding-bottom: 120px;
   }
 }
 .contacts{
+  font-family: 'Open Sans', sans-serif;
   display: flex;
   justify-content: center;
   background-color:#303338;
@@ -202,6 +213,7 @@ $inline-block:inline-block;
   }
   }
 .application{
+  font-family: 'Open Sans', sans-serif;
   padding: 15px 120px 15px 15px;
   text-align: left;
   margin-bottom:12px;
@@ -212,6 +224,7 @@ $inline-block:inline-block;
   outline:2px solid #6e7279;
 }
 .send{
+  font-family: 'Open Sans', sans-serif;
   padding: 15px 90px 15px 90px;
   text-transform: uppercase;
   color: white;
@@ -220,10 +233,12 @@ $inline-block:inline-block;
   border: none;
 }
 .foot {
+  font-family: 'Open Sans', sans-serif;
   display: flex;
   background-color: #24282f;
 
   .foot_text {
+    font-family: 'Open Sans', sans-serif;
     flex-basis:60%;
     margin-top: 26px;
     margin-bottom: 26px;
